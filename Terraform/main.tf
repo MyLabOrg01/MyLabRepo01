@@ -2,7 +2,7 @@ terraform {
   backend "azurerm" {
     resource_group_name  = "SGDemoRG"
     storage_account_name = "sgdemostg"
-    container_name       = "sgdemostate"
+    container_name       = "sgdemostateCont"
     key                  = "dev.terraform.tfstate"
   }
 }
